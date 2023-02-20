@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { generateRound, description } from '../src/games/prime.js';
 import runGame from '../src/index.js';
 
