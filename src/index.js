@@ -16,6 +16,7 @@ const runGame = (game) => {
             console.log(`Let's try again, ${name}!`);
             return;
         }
+        console.log('Correct!');
     }
     console.log(`Congratulation, ${name}!`);
 };
