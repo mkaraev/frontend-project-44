@@ -18,7 +18,7 @@ const runGame = (game) => {
         }
         console.log('Correct!');
     }
-    console.log(`Congratulation, ${name}!`);
+    console.log(`Congratulations, ${name}!`);
 };
 
 export default runGame;
