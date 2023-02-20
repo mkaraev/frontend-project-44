@@ -18,6 +18,6 @@ const generateRound = () => {
     const answer = isPrime(number) ? 'yes' : 'no';
     return [question, answer];
 };
-const description = 'What is the result of the expression?';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 export { generateRound, description };
